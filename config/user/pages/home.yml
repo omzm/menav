@@ -1,0 +1,193 @@
+title: 欢迎使用
+subtitle: 个人导航站点
+template: home
+categories:
+  - name: 常用网站
+    icon: fas fa-folder
+    sites:
+      - name: GitHub
+        url: https://github.com/
+        icon: fab fa-github
+        description: "开发者平台"
+      - name: 全球主机监控
+        url: https://stock.hostmonit.com/CloudFlareYes
+        icon: fas fa-server
+        description: "VPS监控和优惠"
+      - name: X东呆瓜
+        url: http://isv.isvjcloud.cn/
+        icon: fas fa-car
+        description: "好车推荐"
+      - name: 晴玖云服务端
+        url: https://cdn.79tian.com/api/wxapi/view/login.php?condition=1
+        icon: fas fa-cloud
+        description: "云服务端登入"
+  - name: 论坛
+    icon: fas fa-comments
+    sites:
+      - name: 科学刀
+        url: https://www.kxdao.org/
+        icon: fas fa-flask
+        description: "科技交流社区"
+      - name: 吾爱破解
+        url: https://www.52pojie.cn/index.php
+        icon: fas fa-unlock-alt
+        description: "破解交流论坛"
+      - name: LINUX DO
+        url: https://linux.do/
+        icon: fab fa-linux
+        description: "Linux社区"
+      - name: NodeLoc
+        url: https://nodeloc.cc/
+        icon: fas fa-network-wired
+        description: "开放交流平台"
+      - name: NodeSeek
+        url: https://www.nodeseek.com/
+        icon: fas fa-search
+        description: "节点搜索"
+  - name: 服务器
+    icon: fas fa-server
+    sites:
+      - name: Vercel
+        url: https://vercel.com/anchen770s-projects
+        icon: fas fa-rocket
+        description: "部署平台"
+      - name: Cloudflare Dashboard
+        url: https://dash.cloudflare.com/login
+        icon: fas fa-cloud
+        description: "CDN管理"
+      - name: Hugging Face
+        url: https://huggingface.co/
+        icon: fas fa-brain
+        description: "AI社区"
+      - name: 彩虹云主机
+        url: https://www.cccyun.net/
+        icon: fas fa-cloud
+        description: "云主机"
+      - name: serv00控制面板
+        url: https://panel4.serv00.com/login/?next=/
+        icon: fas fa-cogs
+        description: "控制面板"
+      - name: Deno Deploy
+        url: https://dash.deno.com/login?redirect=%2F
+        icon: fas fa-rocket
+        description: "部署服务"
+      - name: Claw Cloud
+        url: https://ap-northeast-1.run.claw.cloud/
+        icon: fas fa-cloud
+        description: "云计算服务"
+  - name: 工具
+    icon: fas fa-tools
+    sites:
+      - name: 在线ping
+        url: https://www.itdog.cn/ping/
+        icon: fas fa-wifi
+        description: "网络测试"
+      - name: 油猴脚本
+        url: https://greasyfork.org/zh-CN/scripts
+        icon: fas fa-code
+        description: "脚本库"
+      - name: iconfont
+        url: https://www.iconfont.cn/
+        icon: fas fa-icons
+        description: "图标库"
+      - name: deeplx
+        url: https://api.deeplx.org/
+        icon: fas fa-language
+        description: "翻译API"
+      - name: Fetch Github Hosts
+        url: https://hosts.gitcdn.top/
+        icon: fas fa-download
+        description: "Hosts获取"
+      - name: 椰子
+        url: http://h5.yezi66.net:90/#/login
+        icon: fas fa-sign-in-alt
+        description: "登录平台"
+      - name: 豪猪
+        url: https://h5.haozhuma.cn/login.php
+        icon: fas fa-shield-alt
+        description: "防骚扰"
+      - name: 去水印
+        url: https://inpaintweb.lxfater.com/
+        icon: fas fa-eraser
+        description: "图片去水印"
+      - name: 飞鸟办公
+        url: https://www.135tool.cn/
+        icon: fas fa-briefcase
+        description: "办公工具"
+      - name: 临时邮箱
+        url: https://22.do/
+        icon: fas fa-envelope
+        description: "临时邮箱服务"
+      - name: IMPERIAL
+        url: https://imperialb.in/
+        icon: fas fa-database
+        description: "数据服务"
+      - name: Proxysite
+        url: https://www.lumiproxy.com/zh-hans/online-proxy/proxysite/
+        icon: fas fa-globe
+        description: "免费代理"
+      - name: 在线转换视频文件
+        url: https://www.aconvert.com/cn/video/
+        icon: fas fa-video
+        description: "视频转换"
+      - name: PDF24 Tools
+        url: https://tools.pdf24.org/zh/
+        icon: fas fa-file-pdf
+        description: "PDF工具"
+      - name: 接码
+        url: https://daisysms.com/
+        icon: fas fa-mobile-alt
+        description: "验证码接收"
+  - name: AI
+    icon: fas fa-robot
+    sites:
+      - name: ChatGPT
+        url: https://chatgpt.com/
+        icon: fas fa-comments
+        description: "AI聊天"
+      - name: DeepSeek
+        url: https://www.deepseek.com/
+        icon: fas fa-search
+        description: "知识求索"
+      - name: Leonardo.Ai
+        url: https://app.leonardo.ai/auth/login?callbackUrl=%2F
+        icon: fas fa-paint-brush
+        description: "AI平台"
+      - name: 图片处理
+        url: https://clipdrop.co/
+        icon: fas fa-image
+        description: "AI图片处理"
+      - name: 免费在线AI换脸工具
+        url: https://beart.ai/zh/face-swap/
+        icon: fas fa-user-edit
+        description: "AI换脸"
+      - name: Google AI Studio
+        url: https://aistudio.google.com/prompts/new_chat?hl=zh-cn
+        icon: fab fa-google
+        description: "Google AI"
+  - name: 云盘
+    icon: fas fa-cloud
+    sites:
+      - name: Filen
+        url: https://app.filen.io/
+        icon: fas fa-folder
+        description: "云盘储存"
+      - name: 坚果云官网
+        url: https://www.jianguoyun.com/
+        icon: fas fa-cloud
+        description: "文件同步"
+      - name: InfiniCLOUD
+        url: https://infini-cloud.net/en/
+        icon: fas fa-infinity
+        description: "全能云存储"
+  - name: 域名
+    icon: fas fa-globe
+    sites:
+      - name: ClouDNS
+        url: https://www.cloudns.net/
+        icon: fas fa-server
+        description: "DNS托管"
+      - name: 迈向未来
+        url: https://www.spaceship.com/zh/
+        icon: fas fa-rocket
+        description: "未来科技"
