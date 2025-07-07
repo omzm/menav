@@ -1,14 +1,16 @@
-# 导航菜单配置示例
-- name: "首页"               # 菜单项名称
-  icon: "fas fa-home"        # 菜单项图标
-  id: "home"                 # 页面标识符（必须唯一）
-  active: true               # 是否默认激活（只能有一个为true）
-- name: "项目"
-  icon: "fas fa-project-diagram"
-  id: "projects"
+- name: 首页
+  icon: fas fa-home
+  id: home
+  active: true
+- name: 项目
+  icon: fas fa-project-diagram
+  id: projects
   active: false
-- name: "文章"
-  icon: "fas fa-book"
-  id: "articles"
+- name: 文章
+  icon: fas fa-book
+  id: articles
   active: false
-# 更多导航项...
+- name: 书签
+  icon: fas fa-bookmark
+  id: bookmarks
+  active: false
