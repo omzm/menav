@@ -1,0 +1,220 @@
+# 自动生成的书签配置文件
+# 由bookmark-processor.js生成于 2025-08-02T15:59:27.504Z
+# 若要更新，请将新的书签HTML文件放入bookmarks/目录
+# 此文件使用模块化配置格式，位于config/user/pages/目录下
+
+title: 我的书签
+subtitle: 从浏览器导入的书签收藏
+categories:
+  - name: 常用网站
+    icon: fas fa-folder
+    sites:
+      - name: GitHub
+        url: https://github.com/
+        icon: fab fa-github
+        description: ""
+      - name: 全球主机监控 - 国内外VPS、云服务器的库存监控和优惠信息
+        url: https://stock.hostmonit.com/CloudFlareYes
+        icon: fas fa-link
+        description: ""
+      - name: X东呆瓜-只用好的车
+        url: http://isv.isvjcloud.cn/
+        icon: fas fa-link
+        description: ""
+      - name: 登入 - 晴玖云服务端
+        url: https://cdn.79tian.com/api/wxapi/view/login.php?condition=1
+        icon: fas fa-link
+        description: ""
+  - name: 论坛
+    icon: fas fa-folder
+    sites:
+      - name: 科学刀 - 开放交流，共享精神，走进科学刀论坛 - Powered by Discuz!
+        url: https://www.kxdao.org/
+        icon: fas fa-link
+        description: ""
+      - name: 吾爱破解
+        url: https://www.52pojie.cn/index.php
+        icon: fas fa-link
+        description: ""
+      - name: LINUX DO - 新的理想型社区
+        url: https://linux.do/
+        icon: fas fa-link
+        description: ""
+      - name: NodeLoc - 自由、平等、友好、开放、有趣的交流社区
+        url: https://nodeloc.cc/
+        icon: fas fa-link
+        description: ""
+      - name: NodeSeek
+        url: https://www.nodeseek.com/
+        icon: fas fa-link
+        description: ""
+  - name: 服务器
+    icon: fas fa-folder
+    sites:
+      - name: Vercel
+        url: https://vercel.com/anchen770s-projects
+        icon: fas fa-link
+        description: ""
+      - name: Cloudflare Dashboard | Manage Your Account
+        url: https://dash.cloudflare.com/login
+        icon: fas fa-link
+        description: ""
+      - name: Hugging Face – The AI community building the future.
+        url: https://huggingface.co/
+        icon: fas fa-link
+        description: ""
+      - name: 彩虹云主机 - 虚拟主机,免备案cdn,免备案空间
+        url: https://www.cccyun.net/
+        icon: fas fa-link
+        description: ""
+      - name: serv00控制面板
+        url: https://panel4.serv00.com/login/?next=/
+        icon: fas fa-link
+        description: ""
+      - name: Deno Deploy
+        url: https://dash.deno.com/login?redirect=%2F
+        icon: fas fa-link
+        description: ""
+      - name: Claw Cloud
+        url: https://ap-northeast-1.run.claw.cloud/
+        icon: fas fa-link
+        description: ""
+  - name: 工具
+    icon: fas fa-folder
+    sites:
+      - name: 在线ping
+        url: https://www.itdog.cn/ping/
+        icon: fas fa-link
+        description: ""
+      - name: 油猴脚本
+        url: https://greasyfork.org/zh-CN/scripts
+        icon: fas fa-link
+        description: ""
+      - name: iconfont-阿里巴巴矢量图标库
+        url: https://www.iconfont.cn/
+        icon: fas fa-link
+        description: ""
+      - name: deeplx
+        url: https://api.deeplx.org/
+        icon: fas fa-link
+        description: ""
+      - name: Fetch Github Hosts
+        url: https://hosts.gitcdn.top/
+        icon: fas fa-link
+        description: ""
+      - name: 椰子
+        url: http://h5.yezi66.net:90/#/login
+        icon: fas fa-link
+        description: ""
+      - name: 豪猪-助力远离营销骚扰
+        url: https://h5.haozhuma.cn/login.php
+        icon: fas fa-link
+        description: ""
+      - name: 去水印
+        url: https://inpaintweb.lxfater.com/
+        icon: fas fa-link
+        description: ""
+      - name: 飞鸟办公-湖南行界软件科技有限公司
+        url: https://www.135tool.cn/
+        icon: fas fa-link
+        description: ""
+      - name: 临时邮箱
+        url: https://22.do/
+        icon: fas fa-link
+        description: ""
+      - name: IMPERIAL
+        url: https://imperialb.in/
+        icon: fas fa-link
+        description: ""
+      - name: Proxysite 免费代理 - 快速在线网络代理 - Lumiproxy
+        url: https://www.lumiproxy.com/zh-hans/online-proxy/proxysite/
+        icon: fas fa-link
+        description: ""
+      - name: 在线转换视频文件
+        url: https://www.aconvert.com/cn/video/
+        icon: fas fa-link
+        description: ""
+      - name: "PDF24 Tools: 免费且易于使用的在线PDF工具"
+        url: https://tools.pdf24.org/zh/
+        icon: fas fa-link
+        description: ""
+      - name: 接码
+        url: https://daisysms.com/
+        icon: fas fa-link
+        description: ""
+  - name: A i
+    icon: fas fa-folder
+    sites:
+      - name: ChatGPT
+        url: https://chatgpt.com/
+        icon: fas fa-link
+        description: ""
+      - name: DeepSeek | 深度求索
+        url: https://www.deepseek.com/
+        icon: fas fa-link
+        description: ""
+      - name: Leonardo.Ai
+        url: https://app.leonardo.ai/auth/login?callbackUrl=%2F
+        icon: fas fa-link
+        description: ""
+      - name: 图片处理
+        url: https://clipdrop.co/
+        icon: fas fa-link
+        description: ""
+      - name: 免费在线AI换脸工具 - 支持照片、视频和GIF
+        url: https://beart.ai/zh/face-swap/
+        icon: fas fa-link
+        description: ""
+      - name: Chat | Google AI Studio
+        url: https://aistudio.google.com/prompts/new_chat?hl=zh-cn
+        icon: fab fa-google
+        description: ""
+  - name: 云盘
+    icon: fas fa-folder
+    sites:
+      - name: Filen
+        url: https://app.filen.io/
+        icon: fas fa-link
+        description: ""
+      - name: 坚果云官网|网盘|云盘|云服务|团队协作软件|同步盘
+        url: https://www.jianguoyun.com/
+        icon: fas fa-link
+        description: ""
+      - name: InfiniCLOUD | All-In-One Cloud Storage | Get 20GB Free
+        url: https://infini-cloud.net/en/
+        icon: fas fa-link
+        description: ""
+  - name: 域名
+    icon: fas fa-folder
+    sites:
+      - name: Free DNS hosting, Cloud DNS hosting and Domain names | ClouDNS
+        url: https://www.cloudns.net/
+        icon: fas fa-link
+        description: ""
+      - name: 迈向未来 - Spaceship
+        url: https://www.spaceship.com/zh/
+        icon: fas fa-link
+        description: ""
+  - name: 代写
+    icon: fas fa-folder
+    sites:
+      - name: Stirling PDF - 添加水印
+        url: https://pdf.sufe.me/add-watermark
+        icon: fas fa-link
+        description: ""
+      - name: 人教版语文电子课本
+        url: http://www.dzkbw.com/books/rjb/yuwen/
+        icon: fas fa-link
+        description: ""
+      - name: 提示精灵-主页
+        url: https://www.promptgenius.site/
+        icon: fas fa-link
+        description: ""
+      - name: 录音转文字
+        url: https://turboscribe.ai/zh-CN/dashboard
+        icon: fas fa-link
+        description: ""
+      - name: 在PDF文件添加水印 - 迅捷，在线，免费 - PDF24
+        url: https://tools.pdf24.org/zh/add-watermark
+        icon: fas fa-link
+        description: ""
