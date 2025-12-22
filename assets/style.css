@@ -1033,8 +1033,8 @@ body .content.expanded {
 
 /* 层级2: 子分类 */
 .category-level-2 {
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-left: 0.5rem;
     border-left: none;
 }
@@ -1070,8 +1070,8 @@ body .content.expanded {
 
 /* 层级3: 分组 */
 .group-level-3, .category-level-3 {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-left: 0.5rem;
 }
 
@@ -1107,9 +1107,24 @@ body .content.expanded {
 
 /* 层级4: 子分组 */
 .group-level-4, .category-level-4 {
-    margin-top: 1rem;
-    margin-bottom: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-left: 0.5rem;
+}
+
+/* 嵌套层级间距：仅在同级相邻时增加间距，避免首项被额外下推 */
+.subcategories-container > .category-level-2 + .category-level-2 {
+    margin-top: 1rem;
+}
+
+.groups-container > .group-level-3 + .group-level-3,
+.groups-container > .category-level-3 + .category-level-3 {
+    margin-top: 0.8rem;
+}
+
+.subgroups-container > .group-level-4 + .group-level-4,
+.subcategories-container > .category-level-4 + .category-level-4 {
+    margin-top: 0.6rem;
 }
 
 /* 层级4: 标题样式 */
@@ -1224,22 +1239,22 @@ body .content.expanded {
 
 /* 当分类同时包含子分类和站点时的样式优化 */
 .category-content .subcategories-container + .sites-grid {
-    margin-top: 2rem;
-    padding-top: 1.5rem;
+    margin-top: 1.2rem;
+    padding-top: 1rem;
     border-top: 1px solid var(--border-color);
 }
 
 /* 当分类同时包含分组和站点时的样式优化 */
 .category-content .groups-container + .sites-grid {
-    margin-top: 2rem;
-    padding-top: 1.5rem;
+    margin-top: 1.2rem;
+    padding-top: 1rem;
     border-top: 1px solid var(--border-color);
 }
 
 /* 子分类容器底部间距调整 */
 .category-content .subcategories-container:not(:last-child),
 .category-content .groups-container:not(:last-child) {
-    margin-bottom: 1rem;
+    margin-bottom: 0.6rem;
 }
 
 /* 确保嵌套的网站网格正确显示 */
@@ -1248,7 +1263,7 @@ body .content.expanded {
 .category-level-3 .sites-grid,
 .group-level-4 .sites-grid,
 .category-level-4 .sites-grid {
-    margin-top: 1rem;
+    margin-top: 0;
     gap: var(--spacing-md);
     /* 保持与顶层一致的网格布局 */
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -1257,19 +1272,29 @@ body .content.expanded {
 /* 响应式设计 - 嵌套结构 */
 @media (max-width: 768px) {
     .category-level-2 {
-        margin-top: 1.5rem;
-        margin-bottom: 1rem;
         padding-left: 0;
     }
     
     .group-level-3, .category-level-3 {
-        margin-top: 1.2rem;
         padding-left: 0;
     }
     
     .group-level-4, .category-level-4 {
-        margin-top: 1rem;
         padding-left: 0;
+    }
+
+    .subcategories-container > .category-level-2 + .category-level-2 {
+        margin-top: 0.8rem;
+    }
+
+    .groups-container > .group-level-3 + .group-level-3,
+    .groups-container > .category-level-3 + .category-level-3 {
+        margin-top: 0.7rem;
+    }
+
+    .subgroups-container > .group-level-4 + .group-level-4,
+    .subcategories-container > .category-level-4 + .category-level-4 {
+        margin-top: 0.55rem;
     }
     
     .category-level-2 .sites-grid,
